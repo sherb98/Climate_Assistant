@@ -29,6 +29,7 @@ Install EnergyPlus (Version 22.2) from: [EnergyPlus Downloads](https://energyplu
 In `SimManagement.py`, set the `iddfile` variable to the path where the EnergyPlus IDD file is located, similar to below: 
 ```python
 iddfile="C:\\EnergyPlusV22-2-0\\Energy+.idd"
+```python
 
 ## Running the Program
 
