@@ -19,8 +19,6 @@ Libraries used:
   - `pip install matplotlib`
 - **eppy**
   - `pip install eppy`
-- **sqllite3**
-  - SQLite3 is included in the standard library of Python 3.x
 
 ### Installing EnergyPlus
 Install EnergyPlus (Version 22.2) from: [EnergyPlus Downloads](https://energyplus.net/downloads)
