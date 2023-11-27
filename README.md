@@ -2,7 +2,7 @@
 
 ## Overview of the Project
 [YOUTUBE LINK](YOUTUBE LINK)
-Climate Assistant is a tool designed for use in the early stages of building design, catering to architects and individuals planning to build or renovate a property. Its user-friendly interface requires just three inputs: a weather file, the type of building (be it office or residential), and the orientation of windows (North, East, South, or West). Utilizing these inputs, Climate Assistant evaluates whether it is likely that air conditioning is needed. It also helps to identify the most effective climate-responsive measures to either negate the necessity of an A/C unit or to minimize its energy consumption. The program runs annual Energy Plus simulations in the background, employing the 'Predicted Mean Vote' (PMV) metric to assess if the building's internal temperature is excessively hot.
+Climate Assistant is a tool designed for use in the early stages of building design, catering to architects and individuals planning to build or renovate a property. Its user-friendly interface requires just three inputs: a weather file, the type of building (be it office or residential), and the orientation of windows (North, East, South, or West). Utilizing these inputs, Climate Assistant evaluates whether it is likely that air conditioning is needed. It also helps to identify the most effective climate-responsive measures to either negate the necessity of an A/C unit or to minimize its energy consumption. The program runs annual Energy Plus simulations in the background, employing the 'Predicted Mean Vote' (PMV) metric to assess if the building is too hot.
 
 ## Dependencies 
 
@@ -22,14 +22,14 @@ Libraries used:
 - **sqllite3**
   - SQLite3 is included in the standard library of Python 3.x
 
-### Installing Energy Plus
+### Installing EnergyPlus
 Install EnergyPlus (Version 22.2) from: [EnergyPlus Downloads](https://energyplus.net/downloads)
 
 ### Set the idd File Variable
 In `SimManagement.py`, set the `iddfile` variable to the path where the EnergyPlus IDD file is located, similar to below: 
 ```python
 iddfile="C:\\EnergyPlusV22-2-0\\Energy+.idd"
-```python
+```
 
 ## Running the Program
 
