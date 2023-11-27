@@ -4,6 +4,10 @@
 [YOUTUBE LINK](YOUTUBE LINK)
 Climate Assistant is a tool designed for use in the early stages of building design, catering to architects and individuals planning to build or renovate a property. Its user-friendly interface requires just three inputs: a weather file, the type of building (be it office or residential), and the orientation of windows (North, East, South, or West). Utilizing these inputs, Climate Assistant evaluates whether it is likely that air conditioning is needed. It also helps to identify the most effective climate-responsive measures to either negate the necessity of an A/C unit or to minimize its energy consumption. The program runs annual Energy Plus simulations in the background, employing the 'Predicted Mean Vote' (PMV) metric to assess if the building is too hot.
 
+![image](https://github.com/sherb98/Climate_Assistant/assets/96775603/1b5e15ee-8f7d-4f85-8b51-b771e8540bbe)
+
+
+
 ## Dependencies 
 
 ### Python Libraries
@@ -22,6 +26,8 @@ Libraries used:
 
 ### Installing EnergyPlus
 Install EnergyPlus (Version 22.2) from: [EnergyPlus Downloads](https://energyplus.net/downloads)
+
+![image](https://github.com/sherb98/Climate_Assistant/assets/96775603/7d43bb21-51a7-4f4e-bb5d-44309bc5679c)
 
 ### Set the idd File Variable
 In `SimManagement.py`, set the `iddfile` variable to the path where the EnergyPlus IDD file is located, similar to below: 
