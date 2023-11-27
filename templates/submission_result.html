@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Submission Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #f4f4f4;
+            font-size: 14pt;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .highlighted {
+            font-weight: bold;
+            font-size: 16pt; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Submission Details</h1>
+        <p>Weather File Used: {{ file_name }}</p>
+        <p>Building Type: {{ building_type }}</p>
+        <p>Window Orientation: {{ window_orientation }}</p>
+        <h1>Annual Results</h1>
+        <p>Air Conditioning needed (according to the simulation): <span class="highlighted">{{ AC_needed }}</span></p>
+        <img src="{{ fig_path }}" alt="Heatmap">
+        
+        <p>The bar chart above shows the annual hours that are considered “too hot” with each variant, according to the Predicted Mean Vote metric (PMV). A PMV of higher than 0.5 if considered too hot, in accordance to the ASHRAE 55 standard. For up to 20 hours each year, PMV values of over 0.5 are permitted (disclaimer: 20 hours are arbitrarily chosen for now). The Variants that meet this requirement without Air Conditioning (if any) are marked in green in the bar chart above. The Variants are described in more detail below.</p>
+
+        <h2>Description of Variants</h2>
+        <p><strong>Baseline:</strong> This is a room with a window facing in the specified direction. No shading is applied and there is no ventilation (i.e. the windows are closed all year). The construction is lightweight (wood), i.e. there is little thermal mass.</p>
+        <p><strong>+ Shading:</strong> The same as the Baseline, but a dynamic shading system is applied to the window that closes once the air temperature in the room exceeds 20°C.</p>
+        <p><strong>+ Vent. Day:</strong> The same as “+ Shading”, but the windows of the room open between 7 am and 6 pm, whenever the air temperature of the room exceeds 22°C and the relative humidity of the outdoor air is under 70%.</p>
+        <p><strong>+ Vent. Night:</strong> The same as “+ Vent. Day”, but the windows of the room always, whenever the air temperature of the room exceeds 22°C.</p>
+        <p><strong>+ Thermal Mass:</strong> The same as “+ Vent. Night”, but the construction in heavier (e.g. concrete or rammed earth), i.e. there is thermal mass.</p>
+
+        <h2>PMV Metric</h2>
+        <p>PMV, or Predicted Mean Vote, is a widely used index in the field of Building Science to quantitatively measure human thermal comfort. Developed by P.O. Fanger in the 1960s, PMV is based on the heat balance of the human body. It predicts the mean value of the votes of a large group of people on a seven-point thermal sensation scale, ranging from -3 (too cold) to +3 (too hot).</p>
+
+        <h2>Disclaimer</h2>
+        <ul>
+            <li>This simulation provides a preliminary model; actual conditions may require an A/C for comfort, even if not indicated by the tool.</li>
+            <li>If an A/C is installed, the measures will still lower its electricity consumption.</li>
+            <li>With evolving climate patterns, future thermal conditions may necessitate an A/C, regardless of current predictions.</li>
+            <li>Intended for early-stage design insights, not as a substitute for professional HVAC/Climate Engineering advice.</li>
+        </ul>
+    </div>
+</body>
+</html>

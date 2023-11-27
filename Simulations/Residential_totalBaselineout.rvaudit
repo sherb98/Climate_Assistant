@@ -1,0 +1,13 @@
+ ReadVarsESO
+ processing:C:\Users\svenj\OneDrive - Massachusetts Institute of Technology\00_MIT\23_Fall\1125_ArchandEngSoftwareSys\Project_final\Version1\Simulations\Residential_totalBaseline_9362e7.rvi
+ input file:C:\Users\svenj\OneDrive - Massachusetts Institute of Technology\00_MIT\23_Fall\1125_ArchandEngSoftwareSys\Project_final\Version1\Simulations\Residential_totalBaselineout.eso
+ output file:C:\Users\svenj\OneDrive - Massachusetts Institute of Technology\00_MIT\23_Fall\1125_ArchandEngSoftwareSys\Project_final\Version1\Simulations\Residential_totalBaselineout.csv
+ getting all vars from:C:\Users\svenj\OneDrive - Massachusetts Institute of Technology\00_MIT\23_Fall\1125_ArchandEngSoftwareSys\Project_final\Version1\Simulations\Residential_totalBaselineout.eso
+  number variables requested for output=          27
+ ReadVars Run Time=00hr 00min  1.09sec
+ ReadVarsESO program completed successfully.
+ ReadVarsESO
+ processing:C:\Users\svenj\OneDrive - Massachusetts Institute of Technology\00_MIT\23_Fall\1125_ArchandEngSoftwareSys\Project_final\Version1\Simulations\Residential_totalBaseline_9362e7.mvi
+ Requested ESO file=C:\Users\svenj\OneDrive - Massachusetts Institute of Technology\00_MIT\23_Fall\1125_ArchandEngSoftwareSys\Project_final\Version1\Simulations\Residential_totalBaselineout.mtr
+ does not exist.  ReadVarsESO program terminated.
+ ReadVarsESO program terminated.

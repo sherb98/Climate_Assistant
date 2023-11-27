@@ -1,0 +1,13 @@
+ ReadVarsESO
+ processing:C:\Users\svenj\OneDrive - Massachusetts Institute of Technology\00_MIT\23_Fall\1125_ArchandEngSoftwareSys\Project_final\Version1\Simulations\residential_AllVent_mass_fd7360.rvi
+ input file:C:\Users\svenj\OneDrive - Massachusetts Institute of Technology\00_MIT\23_Fall\1125_ArchandEngSoftwareSys\Project_final\Version1\Simulations\residential_AllVent_massout.eso
+ output file:C:\Users\svenj\OneDrive - Massachusetts Institute of Technology\00_MIT\23_Fall\1125_ArchandEngSoftwareSys\Project_final\Version1\Simulations\residential_AllVent_massout.csv
+ getting all vars from:C:\Users\svenj\OneDrive - Massachusetts Institute of Technology\00_MIT\23_Fall\1125_ArchandEngSoftwareSys\Project_final\Version1\Simulations\residential_AllVent_massout.eso
+  number variables requested for output=          27
+ ReadVars Run Time=00hr 00min  1.00sec
+ ReadVarsESO program completed successfully.
+ ReadVarsESO
+ processing:C:\Users\svenj\OneDrive - Massachusetts Institute of Technology\00_MIT\23_Fall\1125_ArchandEngSoftwareSys\Project_final\Version1\Simulations\residential_AllVent_mass_fd7360.mvi
+ Requested ESO file=C:\Users\svenj\OneDrive - Massachusetts Institute of Technology\00_MIT\23_Fall\1125_ArchandEngSoftwareSys\Project_final\Version1\Simulations\residential_AllVent_massout.mtr
+ does not exist.  ReadVarsESO program terminated.
+ ReadVarsESO program terminated.

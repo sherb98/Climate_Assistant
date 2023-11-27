@@ -1,0 +1,13 @@
+ ReadVarsESO
+ processing:C:\Users\svenj\OneDrive - Massachusetts Institute of Technology\00_MIT\23_Fall\1125_ArchandEngSoftwareSys\Project_final\Version1\Simulations\residential_DayVent_5d602b.rvi
+ input file:C:\Users\svenj\OneDrive - Massachusetts Institute of Technology\00_MIT\23_Fall\1125_ArchandEngSoftwareSys\Project_final\Version1\Simulations\residential_DayVentout.eso
+ output file:C:\Users\svenj\OneDrive - Massachusetts Institute of Technology\00_MIT\23_Fall\1125_ArchandEngSoftwareSys\Project_final\Version1\Simulations\residential_DayVentout.csv
+ getting all vars from:C:\Users\svenj\OneDrive - Massachusetts Institute of Technology\00_MIT\23_Fall\1125_ArchandEngSoftwareSys\Project_final\Version1\Simulations\residential_DayVentout.eso
+  number variables requested for output=          27
+ ReadVars Run Time=00hr 00min  1.14sec
+ ReadVarsESO program completed successfully.
+ ReadVarsESO
+ processing:C:\Users\svenj\OneDrive - Massachusetts Institute of Technology\00_MIT\23_Fall\1125_ArchandEngSoftwareSys\Project_final\Version1\Simulations\residential_DayVent_5d602b.mvi
+ Requested ESO file=C:\Users\svenj\OneDrive - Massachusetts Institute of Technology\00_MIT\23_Fall\1125_ArchandEngSoftwareSys\Project_final\Version1\Simulations\residential_DayVentout.mtr
+ does not exist.  ReadVarsESO program terminated.
+ ReadVarsESO program terminated.
