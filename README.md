@@ -3,7 +3,7 @@
 ## Overview of the Project
 <a href="https://www.youtube.com/watch?v=B2lVwIztorY=Vid_1
 " target="_blank"><img src="https://github.com/sherb98/Climate_Assistant/assets/96775603/dc5c8b29-9470-4753-a1c1-fcb42d230758"
-alt="Climate Assistant Video" width="240" height="180" border="10" /></a>
+alt="Climate Assistant Video" width="400" height="250" border="10" /></a>  
 Click image above for video (https://www.youtube.com/watch?v=B2lVwIztorY)
 
 Climate Assistant is a tool designed for use in the early stages of building design, catering to architects and individuals planning to build or renovate a property. Its user-friendly interface requires just three inputs: a weather file, the type of building (be it office or residential), and the orientation of windows (North, East, South, or West). Utilizing these inputs, Climate Assistant evaluates whether it is likely that air conditioning is needed. It also helps to identify the most effective climate-responsive measures to either negate the necessity of an A/C unit or to minimize its energy consumption. The program runs annual Energy Plus simulations in the background, employing the 'Predicted Mean Vote' (PMV) metric to assess if the building is too hot.
